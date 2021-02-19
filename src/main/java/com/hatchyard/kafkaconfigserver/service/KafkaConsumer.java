@@ -17,7 +17,7 @@ public class KafkaConsumer {
     @KafkaListener(topics = "my_topic" , groupId = "my_group_id")
     public void getMessage(String message){
 
-        log.info(" KafkaConsumer message : " + message);
+        log.info(" Kafka Consumer message : " + message);
 
     }
 }
